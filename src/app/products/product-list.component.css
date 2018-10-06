@@ -1,0 +1,10 @@
+thead {
+    color: #f25522;
+    background-color: aquamarine;
+}
+tbody > tr:nth-child(odd) {
+    background-color: #eee
+}
+tbody > tr > td > img {
+    filter: drop-shadow(#666666 3px 3px 2px)
+}
